@@ -1,3 +1,6 @@
+'''AUTHOR:Diya krishna
+version1.1
+date:30/11/2024'''
 first_side=int(input("Enter the length of the first side:"))
 second_side=int(input("Enter the length of the second side:"))
 third_side=int(input("Enter the length of the third side:"))
