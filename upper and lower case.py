@@ -2,12 +2,12 @@
 version1.1
 date:30/11/2024'''
 def count_upper_lower_case(string):
+    upper_charector = 0
+    lower_charector = 0
     for i in string:
-        upper_charector = 0
-        lower_charector = 0
         if i.isupper():
             upper_charector += 1
-        if i.islower():
+        elif i.islower():
             lower_charector += 1
     return upper_charector,lower_charector
 string=input("enter a string:")
