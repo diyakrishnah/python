@@ -9,4 +9,5 @@ def generate_fibonacci(n):
         sequence.append(first_number)
         first_number,second_number=second_number,first_number+second_number
     return sequence
-print(generate_fibonacci(10))
+n=int(input("enter a number :"))
+print(generate_fibonacci(n))
